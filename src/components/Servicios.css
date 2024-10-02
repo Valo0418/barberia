@@ -1,0 +1,39 @@
+/* src/components/Servicios.css */
+
+.servicios-container {
+    padding: 20px;
+  }
+  
+  .servicios-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .servicio-item {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 40px); /* Tres columnas */
+    box-sizing: border-box;
+  }
+  
+  .servicio-item h3 {
+    margin: 0 0 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

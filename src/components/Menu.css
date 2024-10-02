@@ -1,0 +1,64 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea los elementos a la izquierda */
+  justify-content: flex-start; /* Alinea los elementos hacia arriba */
+  height: 100vh;
+  background-color: #f7f7f7;
+  padding: 20px; /* Añadir padding para separar del borde */
+}
+
+.menu-header {
+  width: 100%; /* Ocupa todo el ancho */
+  background-color: #000; /* Fondo negro */
+  color: white; /* Color del texto */
+  text-align: center; /* Centra el texto */
+  padding: 20px; /* Espaciado */
+  position: fixed; /* Fija el encabezado en la parte superior */
+  top: 0; /* Posiciona el encabezado en la parte superior */
+  left: 0; /* Alinea a la izquierda */
+  z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+}
+
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espaciado entre botones */
+  margin-top: 100px; /* Añade margen superior para evitar que se superponga con el encabezado */
+  align-items: flex-start; /* Alinea los botones a la izquierda */
+  margin-left: 30px; /* Margen izquierdo para separar de la pantalla */
+}
+
+.menu-button {
+  background-color: #4CAF50; /* Verde para los botones de menú */
+  color: white;
+  border: none;
+  padding: 15px; /* Mantiene el espaciado vertical */
+  width: 200px; /* Ancho fijo para todos los botones */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Tamaño de fuente más grande */
+  transition: background-color 0.3s; /* Efecto de transición */
+  text-align: center; /* Centra el texto en los botones */
+}
+
+.menu-button:hover {
+  background-color: #45a049; /* Cambio de color al pasar el mouse */
+}
+
+.logout-button {
+  background-color: #f44336; /* Rojo para indicar cerrar sesión */
+  color: white;
+  border: none;
+  padding: 15px; /* Mantiene el espaciado vertical */
+  width: 200px; /* Ancho fijo para todos los botones */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Tamaño de fuente más grande */
+  transition: background-color 0.3s; /* Efecto de transición */
+  text-align: center; /* Centra el texto en los botones */
+}
+
+.logout-button:hover {
+  background-color: #d32f2f; /* Cambio de color al pasar el mouse */
+}
