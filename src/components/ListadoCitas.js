@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './ListadoCitas.css';
+import '../CarpetaCSS/ListadoCitas.css';
 
 const ListadoCitas = () => {
   const [citas, setCitas] = useState([]);

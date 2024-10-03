@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './ListadoClientes.css'; // Asegúrate de tener un archivo CSS para estilizar
+import '../CarpetaCSS/ListadoClientes.css'; // Asegúrate de tener un archivo CSS para estilizar
 
 const ListadoClientes = () => {
   const [clientes, setClientes] = useState([]);

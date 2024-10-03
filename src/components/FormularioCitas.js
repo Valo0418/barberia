@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './FormularioCitas.css';
+import '../CarpetaCSS/FormularioCitas.css';
 
 const FormularioCitas = () => {
   const [selectedDate, setSelectedDate] = useState(null);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Servicios.css';
+import '../CarpetaCSS/Servicios.css';
 
 const Servicios = () => {
   const navigate = useNavigate();

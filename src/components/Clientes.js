@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Clientes.css';
+import '../CarpetaCSS/Clientes.css';
 
 const Clientes = () => {
   const [nombre, setNombre] = useState('');
